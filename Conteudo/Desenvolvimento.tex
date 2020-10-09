@@ -1,24 +1,47 @@
 \chapter{METODOLOGIA}
 
 %Metodologia da bibliografia
-\section{Metodologia usada no Levantamento Bibliográfico}
+Este estudo se apresenta como um trabalho de pesquisa quantitativa exploratória de conteúdos assim como de estudo de caso, a metodologia utilizada para o desenvolvimento do estudo estará estruturada em quatro fases: 
 
+\begin{itemize}
+    \item Revisão sistemática dos conteúdos bibliográficos e documentais;
+    \item Desenvolvimento do Modelo conceitual para Transferência de Tecnologia Agrícola;
+    \item Validação do Modelo Proposto;
+    \item Materiais pedagógicos de Apoio ao Aprendizado
+\end{itemize}
 
-Para atingir os objetivos que orientam este estudo, os procedimentos metodológicos serão idealizados com base em programas educacionais que visam a promoção do empreendedorismo e comportamento empreendedor em cursos de graduação, em instituições de ensino públicas e particulares, como também Startups de natureza educacional.
+\section{Revisão sistemática dos conteúdos bibliográficos e documentais}
 
+Para atingir os objetivos que orientam este estudo, os procedimentos metodológicos foram idealizados com base em pesquisas anteriores que visam o desenvolvimento de novos modelos teóricos para melhoria da gestão de tecnologias, em instituições de ensino públicas e particulares, como também Centros de pesquisa. 
 
-A metodologia de pesquisa utilizada encontra-se esquematizada na Figura \ref{figura_referencial}. Buscando construir um levantamento bibliográfico sólido sobre os conteúdos pretendidos neste estudo, será realizada uma revisão sistemática utilizando como ferramenta o StArt \cite{lapes_start_2016}. A ferramenta StArt será desenvolvida para apoiar todo processo de Revisão Bibliográfica, por meio de uma árvore hierárquica, categorizando os artigos em proximidade e níveis de aderência às palavras-chave \cite{hernandes_avaliacao_2010}.
-
+A metodologia de revisão sistemática dos textos acadêmicos utilizada encontra-se esquematizada na Figura \ref{figura_29}. 
 
 \begin{figure}[H]
 \centering
-\caption{\textbf{Planejamento da pesquisa e construção do referencial teórico}}
+\caption{\textbf{Planejamento da Revisão Sistemática dos textos acadêmicos}}
 \includegraphics[scale=0.6]{Imagens/fases_pesquisa_bibliografica.png}
-\fonte{O Autor adaptado de \cite{lapes_start_2016}}
-\label{figura_referencial}
+\fonte{Adaptado de \citeonline{fao_panorama_2017}}
+\label{figura_29}
 \end{figure}
 
-\section{Levantamento dados sobre Transferências}
+
+Será realizada uma busca dos descritores que serão utilizados inicialmente, para isto serão prospectadas as bases de dados bibliográficos \textit{Scorpus} e \textit{IEEE Xplore} visando selecionar os artigos científicos e materiais didáticos relacionados ao tema.
+
+Objetivando vincular as fontes de consulta com o tema proposto, serão adotados como descritores primários os termos: \textit{Technology Transfer}, \textit{Educational Institution} e \textit{Agriculture}, tendo como corte temporal o intervalo entre 2014 e 2020. 
+
+Partindo dos corpus textuais selecionados, os descritores foram categorizados através do software VOSviewer. O método consiste em um agrupamento textual, fazendo com que as palavras que façam mais sentido formem um número k de grupos, regidos por z centroides, em que um centroide é um termo que reproduz o eixo central de um grupo, quando observado um determinado tema. Desta forma, foram selecionados os principais descritores agrupados a cada \textit{cluster} observado. 
+
+
+A revisão textual para o desenvolvimento dos conteúdos abordados no trabalho tem por objetivo construir os \textit{clusters} que deverão estar relacionados intimamente aos descritores primários utilizados (Tabela \ref{tabela_2}). 
+
+
+
+A partir do desenvolvimento dos clusters e seus respctivos descritores principais, será desenvolvido uma nova busca nos bancos de dados anteriormente citados (\textit{Scorpus} e \textit{IEEE Xplore}), afinando assim os materiais a serem utilizados. No terceiro momento, buscando construir um referencial bibliográfico mais sólido sobre os conteúdos pretendidos neste estudo, será realizada uma revisão por classificação da importância e da situação de semelhança como ferramenta StArt (\textit{State of the Art through Systematic Review}) \cite{lapes_start_2005}, seguindo o protocolo baseado nas orientações de \citeonline{kitchenham_systematic_2009}. 
+
+Esta ferramenta (StArt) foi desenvolvida para apoiar todo processo de Revisão Bibliográfica, por meio de uma árvore hierárquica, categorizando os artigos em proximidade e níveis de aderência às palavras-chave \cite{hernandes_avaliacao_2010}.
+
+
+\subsection{}{Levantamento dados sobre Transferência de Tecnologia}
 
 \subsection{Raspagem dos Dados}
 
@@ -36,15 +59,14 @@ Será utilizado o sistema Crawler programado para extrair os comentários sobre 
 
 \begin{figure}[H]
 \centering
-\caption{\textbf{Espaço de trabalho para raspagem de publicações no Diário Oficial da União sobre transferência de tecnologia agrícola.
-}}
+\caption{\textbf{Espaço de trabalho para raspagem de publicações no Diário Oficial da União sobre transferência de tecnologia agrícola}}
 \includegraphics[scale=0.6]{Imagens/raspagem.png}
 \fonte{Os Autores 2020.}
 \label{figura_raspagem}
 \end{figure}
 
 
-\subsection{Análise quantitativa de dados textuais}
+\subsection{Análise quantitativa de dados textuais selecionados}
 
 Após a seleção dos comentários diretamente relacionados ao tema proposto nesta pesquisa, serão realizadas lexicométricas e análises de discursos nos textos presentes com o auxílio do software IRaMuTeQ \cite{conde_lexicometria_2015,da_silva_cezar_panorama_2018}. Através da utilização de Unidades de Contexto Iniciais (UCIs) na construção do modelo para análise, será realizada uma prévia correção no conjunto de dados brutos mantendo as palavras analisáveis, os termos caracterizados como substantivos, adjetivos e verbos. As palavras que geralmente não são relevantes para uma análise, como preposições e advérbios, serão excluídas.
 
@@ -84,7 +106,7 @@ O modelo de transferência de tecnologia será embasado pelos modelos de \citeon
 Após a análise dos resultados da prospecção bibliográfica e  quantitativa de dados textuais será desenvolvido um questionário contendo questões relativas as dimensões citadas, que será aplicado aos juízes tendo como base o Método Delphi. O questionário ao final fara parte estrutural do modelo proposto neste experimento. Estas perguntas serão estruturadas seguindo uma escala Likert com perguntas de peso mínimo 1 e ao máximo 5. 
 
 
-\subsection{Validação do Modelo Proposto}
+\section{Validação do Modelo Proposto}
 
 
 Buscando mensurar a eficácia do modelo estudado nesta pesquisa, será utilizado o método Delphi como parâmetro de validação. Esta técnica consiste em buscar um senso comum do grupo de juízes, ou seja, profissionais efetivamente engajados na área de estudo. O método Delphi se baseia na aplicação estruturada do conhecimento e da experiência de especialistas da área pressupondo que, o julgamento em conjunto de determinado processo quando organizado adequadamente, é melhor que a opinião de um só indivíduo \cite{faro_tecnica_1997,santiago_matriz_2012}. 
@@ -104,6 +126,5 @@ abordagens}}
 \fonte{O Autor adaptado de \cite{massaroli_metodo_2017}}
 \label{figura_delphi}
 \end{figure}
-
 
 A avaliação dos questionários aplicados ao  juízes será conduzida às cegas, desta forma, Acredita-se que o sigilo dos participantes garanta ao final do experimento uma maior fidelidade ao resultado, e permitindo ainda a estes uma melhor exposição dos resultados e a sustentação de seu ponto de vista sobre o modelo de transferência de tecnologia agrícola \cite{keeney_delphi_2011}.
